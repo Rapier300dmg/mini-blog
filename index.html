@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Template/css/style.css" />
+</head>
+<body>
+    <h1>Создать пост</h1>
+    <form id="postForm">
+        <label>
+            Заголовок:
+            <input type="text" id="title" required>
+        </label>
+        <br><br>
+        <label>
+            <textarea id="content" rows="4" cols="50" required></textarea>
+        </label>
+        <br><br>
+        <button type="submit" class="button-post">Добавить пост</button>
+    </form>
+
+    <h2>Список постов</h2>
+
+    <div id="postList"></div>
+    <script src="/Template/js/main.js"></script>
+
+</body>
+</html>
